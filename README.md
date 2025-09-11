@@ -1,1 +1,0 @@
-szia, le sem fogod sz4rni hogy mi van itt <3
