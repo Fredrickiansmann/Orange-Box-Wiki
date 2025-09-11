@@ -10,13 +10,14 @@ body{
 }
 #top_cards{
     text-align: center;
-float: left;
+/*float: left;*/
 }
 .game_cards{
 width: 20%;
 }
 .game_name{
-
+color: rgb(255, 255, 255);
+background-color: rgba(0, 0, 0, 0.800);
 }
 .game_img{
 width: 200px;
