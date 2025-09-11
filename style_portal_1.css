@@ -8,9 +8,17 @@ body{
     width: 90%;
 
 }
+#top_cards{
+    text-align: center;
+float: left;
+}
 .game_cards{
-/*kill yourselves*/
+width: 20%;
 }
 .game_name{
-    
+
+}
+.game_img{
+width: 200px;
+height: 100px;
 }
