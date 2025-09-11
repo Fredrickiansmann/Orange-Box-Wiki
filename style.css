@@ -1,0 +1,10 @@
+body{
+    font-family: "TF2 Build";
+}
+
+@font-face {
+  font-family: 'TF2 Build';
+  src: url('tf2_build/tf2build.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
