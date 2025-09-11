@@ -1,0 +1,26 @@
+.scout{
+    background-image: url(Top\ guy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.soldier{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+.heavy{
+    height: 400px;
+    width: 16%;
+    margin-top: 900px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: rgba(128, 128, 128, 0.534);
+    float: left;
+    
+}
+
+.heavy:hover{
+    background-color: rgba(255, 115, 0, 0.534);
+}
