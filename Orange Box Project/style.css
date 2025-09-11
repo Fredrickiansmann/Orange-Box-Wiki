@@ -1,26 +1,60 @@
-.scout{
-    background-image: url(Top\ guy.gif);
+body{
+    background-image: url(HL2\ Background.gif);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+}
+
+.scout{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border-radius: 20px;
+    height: 200px;
 }
 
 .soldier{
     width: 80%;
     margin: auto;
     height: 100%;
+    border-radius: 0px;
 }
 
 .heavy{
-    height: 400px;
-    width: 16%;
-    margin-top: 900px;
-    margin-left: 2%;
-    margin-right: 2%;
+    height:400px;
+    width: 18%;
+    margin-top: 100px;
+    margin-left: 1%;
+    margin-right: 1%;
     background-color: rgba(128, 128, 128, 0.534);
     float: left;
+    border-radius: 20px;
+
     
 }
 
 .heavy:hover{
     background-color: rgba(255, 115, 0, 0.534);
+}
+
+.demoman{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.pill{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    background-color: rgba(255, 115, 0, 0.534);
+}
+
+.engineer{
+    margin-top: 300px;
+    text-align: center;
+}
+.sentry{
+    height: 200px;
+
 }
