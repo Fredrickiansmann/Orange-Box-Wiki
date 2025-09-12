@@ -74,9 +74,11 @@ border: 2px solid rgb(0, 102, 255);
   border: 2px white solid;
 display: flex;
       flex: 100%;
-color: wheat;
+color: rgb(255, 255, 255);
     margin: auto;
 padding:10px 5px ;
+    border-radius: 10px;
+
 }
 
 
@@ -88,7 +90,20 @@ flex:10%;
 padding:5px ;
 text-align: justify;
 
+}
 
+#lore{
+    font-family: 'Teko Light';
+
+}
+
+.portal-l{
+font-size: 30px;
+font-weight: thin;
+}
+
+#container p{
+    font-size: 16px;
 }
 
 #right_pics{
@@ -101,7 +116,7 @@ text-align: justify;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;       
-    gap: 10px;
+    gap: 5px;
     text-align: justify;
 }
 
@@ -125,4 +140,6 @@ text-align: justify;
     width: 90%;
     margin: auto;
     display: block;
+  box-shadow: 3px 3px 15px blue, -3px -3px 15px blue;
+  margin-bottom: 20px;
 }
