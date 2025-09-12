@@ -1,0 +1,15 @@
+body{
+
+}
+#main{
+
+}
+.top_thing{
+    align-items: left;
+        text-decoration: none;
+        color:white;
+
+}
+.top_thing tr td:hover{
+    text-decoration: underline;
+}
