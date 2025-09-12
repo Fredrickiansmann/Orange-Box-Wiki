@@ -46,6 +46,8 @@ border:2px solid rgb(255, 115, 0);
 display: flex;
       flex: 100%;
 color: wheat;
+    margin: auto;
+padding:10px;
 }
 
 
@@ -54,6 +56,7 @@ max-width: 20%;
 flex:20%;
   border: 2px white solid; 
     display: flex;
+padding:10px;
 
 
 }
@@ -61,14 +64,20 @@ flex:20%;
 #center{
     max-width: 80%;
     display: flex;
-      border: 2px white solid;
+
 }
 
 #left_pics{
-    align-self: center;
+    align-self: left;
 }
 
 #right_pics{
     align-self: right;
         display: flex;
+}
+.head_img{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    display: block;
 }
