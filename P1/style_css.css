@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+#main{
+ width: max-content;
+  max-width: 120%; 
+}
+
+#top_thing{
+    margin: auto;
+    font-size: 24px;
+    border-spacing: 10px;
+
+}
+
+#left_pics #right_pics{
+max-width: 10%;
+}
+
+#top_thing a{
+        color:white;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: auto;
+    text-decoration: none;
+
+}
+
+#top_thing td{
+    padding: 5px 10px;
+    border:2px solid rgb(0, 102, 255);
+   border-radius: 100px;
+}
+#top_thing td:hover{
+border:2px solid rgb(255, 115, 0);
+
+}
+#top_thing td:active{
+        border:2px solid rgb(255, 115, 0);
+
+}
+
