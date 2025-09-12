@@ -26,17 +26,46 @@ body{
 #top_thing td{
     padding: 5px 10px;
     border:2px solid rgb(0, 102, 255);
-   border-radius: 100px;
+   border-radius: 12.5px;
 }
 #top_thing td:hover{
-border:2px solid rgb(255, 115, 0);
+border:2px 2px solid rgb(0, 225, 255);
 
 }
 #top_thing td:active{
-        border:2px solid rgb(255, 115, 0);
+        border:2px solid rgb(62, 103, 109);
 
 }
 
+#navbar{
+        margin: auto;
+    font-size: 24px;
+    border-spacing: 10px;
+}
+
+
+
+#navbar a{
+        color:white;
+        text-align: center;
+        margin: auto;
+    text-decoration: none;
+
+}
+
+#navbar td{
+    padding: 5px;
+    border:2px solid rgb(255, 115, 0);
+   border-radius: 100px;
+}
+#navbar td:hover{
+border: 2px solid rgb(0, 102, 255);
+
+}
+#navbar td:active{
+        border:2px solid rgb(255, 115, 0);
+
+}
 
 #container{
     width: 90%;
@@ -53,7 +82,7 @@ padding:10px 5px ;
 
 #left_pics #right_pics{
 max-width: 20%;
-flex:20%;
+flex:10%;
   border: 2px white solid; 
     display: flex;
 padding:5px ;
@@ -62,21 +91,34 @@ text-align: justify;
 
 }
 
-#center{
-    max-width: 80%;
-    display: flex;
-padding:5px ;
-text-align: justify;
-
+#right_pics{
+    display: block;
+    text-align: center;
 }
+
+#center {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;       
+    gap: 10px;
+    text-align: justify;
+}
+
+#right_pics img{
+    width: 500px;
+    height: auto;
+}
+
 
 #left_pics{
     align-self: left;
 }
 
 #right_pics{
-    align-self: right;
-        display: flex;
+    float: right;
+    margin-left: 5px;
+    max-width: 600px;
 }
 .head_img{
     text-align: center;
