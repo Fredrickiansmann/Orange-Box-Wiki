@@ -1,9 +1,10 @@
 body{
     background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 #main{
  width: max-content;
-  max-width: 120%; 
 }
 
 #top_thing{
@@ -13,14 +14,10 @@ body{
 
 }
 
-#left_pics #right_pics{
-max-width: 10%;
-}
 
 #top_thing a{
         color:white;
         text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin: auto;
     text-decoration: none;
 
@@ -40,3 +37,38 @@ border:2px solid rgb(255, 115, 0);
 
 }
 
+
+#container{
+    width: 100%;
+    gap: 10px;
+  align-items:center;
+  border: 2px white solid;
+display: flex;
+      flex: 100%;
+color: wheat;
+}
+
+
+#left_pics #right_pics{
+max-width: 20%;
+flex:20%;
+  border: 2px white solid; 
+    display: flex;
+
+
+}
+
+#center{
+    max-width: 80%;
+    display: flex;
+      border: 2px white solid;
+}
+
+#left_pics{
+    align-self: center;
+}
+
+#right_pics{
+    align-self: right;
+        display: flex;
+}
