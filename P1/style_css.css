@@ -92,18 +92,9 @@ text-align: justify;
 
 }
 
-#lore{
-    font-family: 'Teko Light';
-
-}
-
-.portal-l{
-font-size: 30px;
-font-weight: thin;
-}
 
 #container p{
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #right_pics{
@@ -112,13 +103,17 @@ font-weight: thin;
 }
 
 #center {
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;       
+    display: block;
     gap: 5px;
     text-align: justify;
 }
+
+#center p{
+    max-width: 800px;
+        display: block;
+
+}
+
 
 #right_pics img{
     width: 500px;
@@ -126,9 +121,7 @@ font-weight: thin;
 }
 
 
-#left_pics{
-    align-self: left;
-}
+
 
 #right_pics{
     float: right;
@@ -143,3 +136,36 @@ font-weight: thin;
   box-shadow: 3px 3px 15px blue, -3px -3px 15px blue;
   margin-bottom: 20px;
 }
+
+
+/*--------------*/
+
+
+ .container {
+      width: 10%;
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .toggle-btn {
+      cursor: pointer;
+      padding: 10px;
+      background-color: #070707;
+      border: 1px solid #020202;
+      font-weight: bold;
+    }
+
+    .valami {
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 1s ease;
+      background-color: #070707;
+      border: 1px solid #020202;
+      border-top: none;
+      padding: 0 10px;
+    }
+
+    .valami.open {
+      max-height: 1000px;
+      padding: 10px;
+    }

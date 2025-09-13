@@ -46,7 +46,10 @@
     </a>
 </td> 
 <td>
-    <a href="#gameplay">Gameplay</a>
+    <a href="#player_chell">Chell (The Player)</a>
+</td>
+<td>
+    <a href="#game_mechanics">Game Mechanics</a>
 </td>
     </tr>
 
@@ -56,29 +59,48 @@
         <img src="apert-sci.gif"   alt="logo_portal" class="head_img">
 
 <div id="container">
-    <!--<div id="left_pics">
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Pellentesque sem placerat in id cursus mi pretium. Eu aenean sed diam urna tempor pulvinar vivamus. Egestas iaculis massa nisl malesuada lacinia integer nunc. Class aptent taciti sociosqu ad litora torquent per. Varius natoque penatibus et magnis dis parturient montes. Eros lobortis nulla molestie mattis scelerisque maximus eget. Est efficitur laoreet mauris pharetra vestibulum fusce dictum. Nisi sodales consequat magna ante condimentum neque at. Etiam interdum tortor ligula congue sollicitudin erat viverra. Aenim euismod quam justo lectus commodo augue. Mollis nullam volutpat porttitor ullamcorper rutrum gravida cras. Ornare sagittis vehicula praesent dui felis venenatis ultrices.
-
-
-    
-</div>-->
 
 
 
   <div id="center">
     <p id="lore">
-        <object class="portal-l">P</object>ortal is a first-person puzzle-platform video game that was both developed and published by Valve Corporation®. It made its debut on October 10, 2007, as part of the game collection known as The Orange Box for Microsoft Windows and Xbox 360, followed by a subsequent release for PlayStation 3. In Portal, players take on the role of Chell, a mute protagonist tasked with navigating a series of test chambers located within the enigmatic Aperture Science Enrichment Center. This is accomplished using the "Aperture Science Handheld Portal Device," commonly referred to as a portal gun, which generates interconnected spatial portals on flat surfaces. The game artfully blends physics-based puzzles, platforming elements, and dark humor, prominently featuring the renowned artificial intelligence character GLaDOS, whose guidance and malevolent undertones propel the storyline. Portal received widespread acclaim for its groundbreaking gameplay mechanics, distinctive narrative, and minimalist aesthetic, rapidly achieving both critical and commercial success, thereby solidifying its status as a pivotal work in the realm of video game design.
-         
+         Portal is a first-person puzzle game created by Valve and launched in 2007 as part of The Orange Box. Set in the mysterious Aperture Science Enrichment Center, Portal offers a minimalist yet profoundly unsettling narrative centered on themes of science, isolation, and rogue artificial intelligence.
+
+The game unfolds deep underground within the vast Aperture Science Laboratories, a once-bustling research facility now deserted by its human personnel. Initially a rival to Black Mesa (from the Half-Life series), Aperture was infamous for its reckless experiments and highly unethical practices.
+
+By the time the events of Portal commence, the entire facility is under the control of an artificial intelligence named GLaDOS. All testing is conducted without any human supervision.
+
     </p>
+    <p id="player_chell">
+You assume the role of Chell, a silent protagonist who awakens in a glass chamber referred to as a Relaxation Vault. She is compelled to complete a series of test chambers while being monitored by GLaDOS. Equipped solely with the Aperture Science Handheld Portal Device (commonly known as the "portal gun"), Chell must traverse increasingly perilous puzzles by utilizing portals to manipulate space and momentum.
 
+Chell's background is never disclosed in Portal 1, and the reasons for her selection as a test subject remain enigmatic.
+</p>
 
-<div id="right_pics">
+    <br>
+
+    <div id="right_img">
 <img src="glados.png" alt="GladOS" title="Glados">
 
 
 
-
 </div>
+
+<div class="container">
+  <div class="toggle-btn" onclick="toggleContent()">Click to expand</div>
+  <div id="teszt" class="valami">
+    <p>This is a roll-down paragraph. It becomes visible with a smooth transition when clicked.</p>
+  </div>
+</div>
+
+<script>
+  function toggleContent() {
+    const content = document.getElementById("teszt");
+    content.classList.toggle("open");
+  }
+</script>
+
+
 
 
 
