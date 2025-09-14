@@ -39,7 +39,7 @@ text-decoration: underline;
     }
 
     #navbar td:hover {
-      border: 2px solid rgb(0, 102, 255);
+      border: 2px solid rgb(0, 225, 255);
     }
 
     #navbar td:active {
@@ -116,7 +116,6 @@ text-decoration: underline;
   border-left: 1px solid white;
   border-right: 1px solid white;
   border-radius: 0px 0px 10px 10px;
-  opacity: 0.9;
 }
 
 #img_description a:hover{
@@ -128,6 +127,9 @@ color:  rgb(75, 147, 255);
 color:rgb(255, 153, 69);
 }
 
+#menu_button {
+  display: none; 
+}
 
     @media screen and (max-width: 768px) {
       #content_area {
@@ -154,7 +156,6 @@ color:rgb(255, 153, 69);
       h2{
         font-size: 14px;
       }
-    }
-
-
+     
+}
 
