@@ -27,7 +27,7 @@
     }
 
     #top_thing td:active {
-      border: 2px solid rgb(62, 103, 109);
+text-decoration: underline;
     }
 
     #navbar td {
@@ -40,7 +40,7 @@
     }
 
     #navbar td:active {
-      border: 2px solid rgb(255, 115, 0);
+text-decoration: underline;
     }
 
     a {
