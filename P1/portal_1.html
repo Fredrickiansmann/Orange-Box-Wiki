@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+
   <table id="top_thing">
     <tr>
       <td>
@@ -58,7 +58,7 @@
             <h1>
                 Overview of Portal's Lore
             </h1>
-          <strong>Portal</strong> is a first-person puzzle game created by Valve and launched in 2007 as part of <em>The Orange Box</em>. Set in the mysterious Aperture Science Enrichment Center, Portal offers a minimalist yet profoundly unsettling narrative centered on themes of science, isolation, and rogue artificial intelligence.
+          <strong>Portal</strong> is a first-person puzzle game created by Valve and launched in 2007 as part of <i>The Orange Box</i>. Set in the mysterious Aperture Science Enrichment Center, Portal offers a minimalist yet profoundly unsettling narrative centered on themes of science, isolation, and rogue artificial intelligence.
 
           The game unfolds deep underground within the vast Aperture Science Laboratories, a once-bustling research facility now deserted by its human personnel. Initially a rival to Black Mesa (from the Half-Life series), Aperture was infamous for its reckless experiments and highly unethical practices.
 
@@ -139,19 +139,33 @@ While Portal does not directly connect with the Half-Life series, it exists with
         <!--End_of_center-->
       </div>
 
-      <div id="right_img">
-        <img src="portal_origins.jpg" alt="Portal_img" title="Portal_img">
-        <img src="chell.jpg" alt="Chell" title="Chell">
-        <img src="glados.png" alt="GLaDOS" title="GLaDOS" />
+<div id="right_img">
+  <img src="portal_origins.jpg" alt="Portal_img" title="Portal_img" class="portal-g">
+  <p id="img-description">
+    <a href="javascript:void(0);" onclick="toggleEnlarge('portal-g')">This is the marketing image of Portal.</a>
+  </p>
 
-        
+  <img src="chell.jpg" alt="Chell" title="Chell" class="chell-g">
+  <p id="img-description">
+    <a href="javascript:void(0);" onclick="toggleEnlarge('chell-g')">This is Chell, the player in the Portal series.</a>
+  </p>
+
+  <img src="glados.png" alt="GLaDOS" title="GLaDOS" class="glados-g">
+  <p id="img-description">
+    <a href="javascript:void(0);" onclick="toggleEnlarge('glados-g')">This is GLaDOS, the AI antagonist in the Portal series.</a>
+  </p>
+</div>
 
 
-
-
-
-
-
+  <script>
+    function toggleEnlarge(imageClass) {
+      // Get the image element by class name
+      var img = document.querySelector('.' + imageClass);
+      
+      // Toggle the "enlarged" class to enlarge or return the image to its original size
+      img.classList.toggle('enlarged');
+    }
+  </script>
 
 <!--End_of_right_img-->
     </div>
@@ -159,5 +173,7 @@ While Portal does not directly connect with the Half-Life series, it exists with
     </div>
    <!--End_of_container-->
   </div>
+
+
 </body>
 </html>
