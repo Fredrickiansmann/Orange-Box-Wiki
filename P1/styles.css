@@ -1,6 +1,6 @@
-    /*html {
+ html {
   scroll-behavior:smooth;
-}*/
+}
     body {
       background-color: black;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -100,6 +100,10 @@ text-decoration: underline;
       border: 2px solid white;
       border-radius: 10px;
     }
+
+
+
+
     #img-description {
   text-decoration: none;
   text-align: center;
@@ -113,29 +117,9 @@ text-decoration: underline;
   border-bottom: 1px solid white;
   border-left: 1px solid white;
   border-right: 1px solid white;
-  border-radius: 10px;
+  border-radius: 0px 0px 10px 10px;
   opacity: 0.9;
 }
-
-
-#img-description:hover {
-  text-decoration: underline;
-}
-
-
-#right_img img {
-  width: 300px; 
-  height: auto;  
-  transition: transform 0.3s ease; 
-}
-
-
-.enlarged {
-  transform: scale(2); 
-  z-index: 9999;
-  cursor: zoom-out;
-}
-
 
     @media screen and (max-width: 768px) {
       #content_area {
