@@ -12,8 +12,8 @@
       border-spacing: 10px;
     }
 
-    #top_thing td, #navbar td {
-      padding: 8px 16px;
+    #top_thing td, #navbar td{
+      padding: 4px 8px;
       border-radius: 12px;
       text-align: center;
     }
@@ -71,12 +71,12 @@
       flex-wrap: wrap;
     }
 
-    #center {
+    #center{
       flex: 2;
     }
 
     #center p{
-      font-size: 18px;
+      font-size: 16px;
       margin-bottom: 20px;
       text-align: justify;
     }
