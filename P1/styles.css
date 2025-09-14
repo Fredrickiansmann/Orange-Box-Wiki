@@ -102,15 +102,13 @@ text-decoration: underline;
     }
 
 
-
-
-    #img-description {
+  #img_description {
   text-decoration: none;
   text-align: center;
   color: white;
   font-size: 16px;
-  margin-top: 10px;
-  max-width: 300px;
+  margin-top: 0px;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -120,6 +118,16 @@ text-decoration: underline;
   border-radius: 0px 0px 10px 10px;
   opacity: 0.9;
 }
+
+#img_description a:hover{
+text-decoration: underline;
+color:  rgb(75, 147, 255);
+}
+
+#img_description a:active{
+color:rgb(255, 153, 69);
+}
+
 
     @media screen and (max-width: 768px) {
       #content_area {
