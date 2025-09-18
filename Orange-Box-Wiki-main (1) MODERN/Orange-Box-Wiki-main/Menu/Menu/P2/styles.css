@@ -1,0 +1,48 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background: linear-gradient(180deg,rgba(171, 178, 197, 1) 0%, rgba(35, 35, 54, 1) 100%);
+     margin: 0;
+    padding: 0;
+}   
+
+
+.scout{
+    margin: 10px auto;
+    border-spacing: 10px    ;
+    font-size: 20px;
+    text-align: center;
+}
+
+.scout td{
+        color: white;
+    border-spacing: 10px;
+    border: 2px solid rgb(99, 99, 221);
+    border-radius: 12px;
+      padding: 4px 8px;
+}
+
+.scout a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.soldier{
+    margin: 10px auto;
+    border-spacing: 10px    ;
+    font-size: 20px;
+    text-align: center;
+}
+
+.soldier td{
+    padding: 4px 8px;
+      border-radius: 12px;
+      text-align: center;
+      border: 2px solid rgb(255, 115, 0);
+      border-radius: 100px;
+      
+}
+.soldier td a{
+    text-decoration: none;
+    color: white;
+}
