@@ -7,6 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+<!-- Loading Screen -->
+<div id="loadingScreen">
+  <video id="loadingVideo" autoplay muted playsinline>
+    <source src="your-video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<!-- Main Content -->
+<div id="mainContent">
+  <h1>Welcome to the Website!</h1>
+  <p>The content is now visible.</p>
+</div>
+
+<script>
+  const video = document.getElementById('loadingVideo');
+  const loadingScreen = document.getElementById('loadingScreen');
+  const mainContent = document.getElementById('mainContent');
+
+  video.addEventListener('ended', () => {
+    loadingScreen.classList.add('hidden');
+    setTimeout(() => {
+      mainContent.classList.add('visible');
+    }, 500); // wait for fade out to finish
+  });
+</script>
+
 </body>
 </html>

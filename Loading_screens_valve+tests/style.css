@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+
+  /* Fullscreen loading screen */
+  #loadingScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease; /* fade out in 0.5 seconds */
+  }
+
+  #loadingScreen.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  /* Video fills screen */
+  #loadingVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Main content hidden initially */
+  #mainContent {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: #f0f0f0;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  #mainContent.visible {
+    display: block;
+  }
