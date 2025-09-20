@@ -1,0 +1,82 @@
+.tf2body
+{
+    font-family: sans-serif;
+}
+
+.tf2infobox {
+    float: right;                  
+    margin: 0 0 1em 1em;          
+    border: 1px solid #aaa;
+    background-color: #fd8e05;
+    width: 250px;                  
+    font-size: 90%;
+    border-collapse: collapse;
+  }
+  
+  .tf2infobox-title {
+    background: #f2f2f2;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 0.4em;
+  }
+  
+  .tf2infobox-image {
+    text-align: center;
+    padding: 0.5em;
+  }
+  
+  .tf2infobox-image img {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .tf2infobox-label {
+    font-weight: bold;
+    white-space: nowrap;
+    vertical-align: top;
+    padding: 0.3em;
+    width: 40%;
+  }
+  
+  .tf2infobox-data {
+    padding: 0.3em;
+    text-align: left;
+  }
+  
+
+
+
+    
+  .content-box {
+    border: 1px solid #aaa;
+    background-color: #fff;    
+    margin: 1em 0;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;         
+    font-size: 90%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1); 
+  }
+  
+
+  .content-box-title {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 0.5em;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+ 
+  .content-box-body {
+    padding: 0.8em;
+  }
+  
+  .content-box-body ul {
+    margin: 0.5em 0 0 1.5em;
+  }
+  
+    
+    
+
