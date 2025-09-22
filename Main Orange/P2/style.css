@@ -1,0 +1,108 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background: #b4bfd9;
+    background: linear-gradient(180deg, rgba(41, 41, 44) 50%, rgb(180, 191, 217) 100%);  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.scout{
+    margin: 10px auto;
+    font-size: 20px;
+    border-spacing: 10px;
+}
+
+.scout td{
+    padding: 4px 8px;
+    border-radius: 12px;
+    text-align: center;
+    border: 2px rgb(120, 166, 172) solid;
+}
+
+.scout a{
+    text-decoration: none;
+    color: white;
+}
+
+.soldier{
+    margin: 10px auto;
+    font-size: 20px;
+    border-spacing: 10px;
+    width: 660px;
+}
+
+.soldier td{
+    padding: 4px 8px;
+    border-radius: 12px;
+    text-align: center;
+    border: 2px solid rgb(255, 115, 0);
+}
+
+.soldier a{
+    text-decoration: none;
+    color: white;
+}
+
+.pyro{
+    width: 60%;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: 3px 3px 15px rgb(0, 0, 0), -3px -3px 15px rgb(0, 0, 0);
+}
+
+.heavy{
+    width: 90%;
+    margin: auto;
+    border: rgba(255, 255, 255, 0.795);    
+    padding: 20px;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.engineer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.demoman{
+    flex: 2;
+}
+
+.demoman p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.sniper{
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.spy{
+    width: 45%;
+    float: left;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+legend{
+    text-align: center;
+}
+
+.medic{
+    margin-left: 35%;
+    text-align: center;
+    width: 1400px;
+    height: 800px;
+}
