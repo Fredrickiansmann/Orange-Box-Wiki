@@ -1,0 +1,137 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background: rgb(243, 146, 66);
+    background: linear-gradient(180deg, rgb(194, 116, 52) 20%, rgb(0, 0, 0) 100%);  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.scout{
+    margin: 10px auto;
+    font-size: 20px;
+    border-spacing: 10px;
+}
+
+.scout td{
+    padding: 4px 8px;
+    border-radius: 12px;
+    text-align: center;
+    border: 2px Black solid;
+}
+
+.scout a{
+    text-decoration: none;
+    color: white;
+}
+
+.soldier{
+    margin: 10px auto;
+    font-size: 20px;
+    border-spacing: 10px;
+    width: 660px;
+}
+
+.soldier td{
+    padding: 4px 8px;
+    border-radius: 12px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.soldier a{
+    text-decoration: none;
+    color: white;
+}
+
+.pyro{
+    width: 30%;
+    display: block;
+    margin: 0 auto 20px auto;
+    
+}
+
+.heavy{
+    width: 90%;
+    margin: auto;
+    border: rgba(255, 255, 255, 0.795);    
+    padding: 20px;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.engineer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.demoman{
+    flex: 2;
+}
+
+.demoman p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.sniper{
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.spy{
+    width: 45%;
+    float: left;
+    margin: 2%;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+legend{
+    text-align: center;
+}
+
+hr{
+    background-color: black;
+}
+
+.medic{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+
+.civilian{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.admin{
+    
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.admin video{
+    border-radius: 10px;
+    border: 3px solid white;
+    width: 400px;
+}
+
