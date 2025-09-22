@@ -1,0 +1,168 @@
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(to bottom, rgb(255, 145, 0), rgb(0, 0, 0));
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.titlea{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.titlea:hover{
+  color: rgb(255, 251, 0);
+}
+
+#top_thing, #navbar {
+  margin: 10px auto;
+  font-size: 20px;
+  border-spacing: 10px;
+}
+
+#top_thing td, #navbar td{
+  padding: 4px 8px;
+  border-radius: 2px ;
+  text-align: center;
+}
+
+#top_thing td {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+#top_thing td:hover {
+  border: 2px solid rgb(255, 230, 0);
+}
+
+#top_thing td:active {
+text-decoration: underline;
+}
+
+.title-bar {
+  width: 100%;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row-reverse; 
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+
+.main-content {
+  flex: 1;
+  font-size: 16px;
+}
+
+
+.section h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+
+}
+
+.section hr {
+  border: none;
+  height: 3px;
+  background-color: #ffae00;
+  margin-bottom: 10px;
+}
+
+.tf2infobox {
+  width: 250px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.tf2infobox-title {
+  background-color: #ffae00;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 6px;
+  color: white;
+}
+
+.tf2infobox-image {
+  text-align: center;
+  padding: 8px;
+  
+}
+
+.tf2img {
+  width: 200px;
+  height: 280px;
+}
+
+.tf2infobox-label {
+  font-weight: bold;
+  white-space: nowrap;
+  vertical-align: top;
+  padding: 5px;
+  width: 40%;
+}
+
+.tf2infobox-data {
+  padding: 5px;
+  text-align: left;
+}
+
+
+.content-box {
+  border: 1px solid #aaa;
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 0;
+  width: 100%;
+  font-size: 14px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.content-box-title {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.content-box-body {
+  padding: 12px;
+}
+
+.content-box-body ul {
+  margin: 8px 0 0 20px;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tf2infobox {
+    width: 100%;
+    max-width: 400px;
+  }
+}
